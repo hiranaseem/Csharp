@@ -12,6 +12,8 @@ namespace TestProject
         {
             //Test
             Console.WriteLine("Hello World!");
+            RectClass r = new RectClass();
+            r.DisplayNum();
             Console.ReadKey();
         }
     }
