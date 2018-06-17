@@ -11,9 +11,11 @@ namespace TestProject
         static void Main(string[] args)
         {
             //Test
-            Console.WriteLine("Hello World!");
+            //Console.WriteLine("Hello World!");
             RectClass r = new RectClass();
-            r.DisplayNum();
+            OneDimArray o = new OneDimArray();
+            //r.DisplayNum();
+            o.DisplyOneDimArray();
             Console.ReadKey();
         }
     }
