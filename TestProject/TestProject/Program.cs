@@ -14,8 +14,10 @@ namespace TestProject
             //Console.WriteLine("Hello World!");
             RectClass r = new RectClass();
             OneDimArray o = new OneDimArray();
+            TwoDimArray t = new TwoDimArray();
             //r.DisplayNum();
-            o.DisplyOneDimArray();
+            //o.DisplyOneDimArray();
+            t.displayTwoDimArray();
             Console.ReadKey();
         }
     }
