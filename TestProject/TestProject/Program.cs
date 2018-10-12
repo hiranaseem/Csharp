@@ -21,10 +21,17 @@ namespace TestProject
             StringCompare s4 = new StringCompare();
             SearchPattern s5 = new SearchPattern();
             Palindrome s6 = new Palindrome();
+            StringArray s7 = new StringArray();
+            SplitSentence s8 = new SplitSentence();
+            DuplicateNumberInArray dup = new DuplicateNumberInArray();
+
+            int[] arr = { 5, 6, 8, 8, 5 };
+            dup.findDuplicateNum(arr);
             //r.DisplayNum();
             //o.DisplyOneDimArray();
             //t.displayTwoDimArray();
-            s6.displayPalindrome();
+            //s8.displaySentence();
+            
             Console.ReadKey();
         }
     }
